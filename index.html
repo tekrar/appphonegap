@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>app</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<style>
+
+body {
+background-color:#084265;
+color: white;
+}
+
+.big-icon {
+font-size:60px;
+vertical-align:middle;
+margin-bottom:10px;
+}
+
+.btn-width80 {
+width:80px;
+}
+
+.btn-width100 {
+width:100px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+<div class="form-group">
+<label for="date">Select Time:</label><span class="glyphicon glyphicon-time big-icon"></span>
+<input type="text" class="form-control">
+</div>
+
+<div class="form-group">
+<label for="date">Departure Location:</label>
+<select class="form-control">
+<option>Place 1</option>
+<option>Place 2</option>
+<option>Place 3</option>
+<option>Place 4</option>
+</select>
+</div>
+
+
+<div class="form-group">
+<label for="date">Arrival Location:</label>
+<select class="form-control">
+<option>Place 1</option>
+<option>Place 2</option>
+<option>Place 3</option>
+<option>Place 4</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="date">What To Do:</label>
+<table>
+<tr>
+<td><button type="button" class="btn-width100 btn btn-default">Attractions</button></td>
+<td><button type="button" class="btn-width100 btn btn-default">Museums</button></td>
+<td><button type="button" class="btn-width100 btn btn-default">Religious</button></td>
+</tr>
+
+<tr>
+<td><button type="button" class="btn-width100 btn btn-default">Monuments</button></td>
+<td><button type="button" class="btn-width100 btn btn-default">Historical</button></td>
+<td><button type="button" class="btn-width100 btn btn-default">Parks</button></td>
+</tr>
+</table>
+</div>
+
+
+<div class="form-group">
+<label for="date">Crowding Preference:</label><br>
+
+<button style="background-color:green" type="button" class="btn-width80 btn btn-default">
+<span class="glyphicon glyphicon-user"></span>
+</button>
+
+<button type="button" class="btn-width80 btn btn-default">
+<span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span>
+</button>
+
+<button type="button" class="btn-width80 btn btn-default">
+<span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span>
+</button>
+
+
+<button type="button" class="btn-width80 btn btn-default">
+<span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span>
+</button>
+
+
+</div>
+
+<div class="form-group">
+<button type="button" class="btn btn-success">Back</button>
+<button type="button" class="btn btn-primary">Get Visit Plan</button>
+</div>
+
+
+
+
+</body>
+
+</html>
